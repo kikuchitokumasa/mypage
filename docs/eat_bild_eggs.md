@@ -26,11 +26,11 @@ subgraph "第3階層"
     super["スーパーで卵を買う"]
 
 
-    wash_egg["卵を洗う"];
+    washegg["卵を洗う"];
 
-    boil_hotwater["お湯を沸かす"]
+    yudemizu["お湯を沸かす"]
 
-    boil_egg["卵をゆでる"]
+    yudetama["卵をゆでる"]
 
 
     hukkin["腹筋して腹を減らす"]
@@ -58,11 +58,11 @@ bay_egg--->bank;
 bay_egg--->super;
 
 
-cook_egg--->wash_egg;
+cook_egg--->washegg;
 
-cook_egg--->boil_hotwater;
+cook_egg--->yudemizu;
 
-cook_egg--->boil_egg;
+cook_egg--->yudetama;
 
 
 prepare_eat--->hukkin;

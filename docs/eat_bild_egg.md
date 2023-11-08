@@ -2,13 +2,13 @@
 
 flowchart TB
 
-subgraph "第1階層"
+subgraph "階層１"
 
     eat_egg["ゆで卵を食べる"]
 
 end
 
-subgraph "第2階層"
+subgraph "階層２"
     bay_egg["卵を買う"]
     cook_egg["ゆで卵を作る"]
     prepare_eat["食べる準備をする"]
@@ -16,7 +16,7 @@ subgraph "第2階層"
 end
 
 
-subgraph "第3階層"
+subgraph "階層３"
 
     bank["銀行でお金をおろす"]
     super["スーパーで卵を買う"]
@@ -32,14 +32,14 @@ subgraph "第3階層"
 end
 
 
-%% 第2階層
+%% 階層２
 
 eat_egg--->bay_egg;
 eat_egg--->cook_egg;
 eat_egg--->prepare_eat;
 
 
-%% 第3階層
+%% 階層３
 
 bay_egg--->bank;
 bay_egg--->super;

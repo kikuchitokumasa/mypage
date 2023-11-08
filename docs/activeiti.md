@@ -4,23 +4,23 @@ flowchart TB
 
 subgraph "マークダウン"
 
-    bank["銀行でお金をおろす"]
+    bank["銀行でお金をおろす 作業時間10分"]
 
-    super["スーパーで卵を買う"]
-
-
-    wash_egg["卵を洗う"];
-
-    boil_hotwater["お湯を沸かす"]
-
-    boil_egg["卵をゆでる"]
+    super["スーパーで卵を買う　作業時間20分"]
 
 
-    hukkin["腹筋して腹を減らす"]
+    wash_egg["卵を洗う　作業時間5分"];
 
-    crack["殻をわる"]
+    boil_hotwater["お湯を沸かす　作業時間10分"]
 
-    salt["塩を振る"]
+    boil_egg["卵をゆでる　作業時間10分"]
+
+
+    hukkin["腹筋して腹を減らす 作業時間60分"]
+
+    crack["殻をわる 2分"]
+
+    salt["塩を振る　4秒"]
 
 end
 
